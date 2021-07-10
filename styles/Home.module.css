@@ -9,12 +9,15 @@
 }
 
 .main {
-  padding: 5rem 0;
-  flex: 1;
+  display: flex;
+  /* flex-direction: column;
+  justify-content: center; */
+  align-items: center;
+}
+.main > div:first-child {
+  height: 320px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer {
@@ -45,9 +48,10 @@
 }
 
 .title {
-  margin: 0;
+  margin: 0 0 16px;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 32px;
+  line-height: 40px;
 }
 
 .title,
